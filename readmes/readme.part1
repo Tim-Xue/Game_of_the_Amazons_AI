@@ -1,0 +1,57 @@
+# Game of the Amazons Autoplayer AI - (GA-AI)
+* @author Anthony (Tony) Poerio
+* University of Pittsburgh
+* CS1571 - Artificial Intelligence
+* Prof. Rebecca Hwa
+* Fall 2016
+* Homework #02
+
+## Overview
+**GA-AI** is an Artificial Intelligence project whose purpose to competitively play the board game called "Game of The Amazons" automatically, via an Artificially Intelligent Agent.
+For more info on "Game of The Amazons" itself, see: https://en.wikipedia.org/wiki/Game_of_the_Amazons
+
+The Project is Divided into two parts. Information About each is found in the respective section, below.
+
+## PART I
+Part I of the part project is to  implement the Minimax search algorithm--both WITH and WITHOUT Alpha-Beta Pruning.
+
+* Info on **Minimax**: https://en.wikipedia.org/wiki/Minimax
+* Info on **Alpha-Beta Pruning**:  https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning
+
+### Source Code
+The source code for part 1 can be found in the file named: "minimax_a_b.py"
+
+### Running the program
+To run the program for part 1, simply type:
+
+`python minimax_a_b.py [config file]`
+
+Config files must be in the following format:
+
+`['A', ['B', ('D', 3), ('E', 5)], ['C', ['F', ['I',('K',0), ('L', 7)],('J',5)], ['G', ('M',7), ('N',8)], ('H',4)]]`
+
+Where tuples are the leaf nodes, and the second value in each tuple is the node value at the leaf.
+
+
+### Architecture
+This program works by first constructing a tree from the data in the input file. And this section is found in the "Parse Data" section of the source code.
+
+This tree is then passed to the Minimax and Minimax-AlphaBeta functions, and the output of each search algorithm is displayed as the data computed.
+
+
+### Transcripts
+The transcripts for this section can be found in this folder, along the path:
+`/transcripts/part1`
+
+There are 3 files TOTAL in this folder. One for each example provided.
+
+### Report
+The report for this section is found starting on the **first page** of the document located at:
+`/reports/ADP59-CS1571-HW02-REPORT.pdf`
+
+### Version
+This source code is written using python version 2.7.8
+
+--
+
+

@@ -1,0 +1,44 @@
+------- CS1571 - ASSIGNMENT #02 -----------
+@author - Anthony (Tony) Poerio
+@email adp59@pitt.edu
+  ##############################
+  ########## PART I ############
+  ##############################
+
+FILENAME: test_tree1
+['A', ['B', ('D', 3), ('E', 5)], ['C', ['F', ['I',('K',0), ('L', 7)],('J',5)], ['G', ('M',7), ('N',8)], ('H',4)]]
+
+
+
+----- MINIMAX SEARCH ------
+MiniMax-->MAX: Visited Node :: A
+MiniMax-->MIN: Visited Node :: B
+MiniMax-->MAX: Visited Node :: D
+MiniMax-->MAX: Visited Node :: E
+MiniMax-->MIN: Visited Node :: C
+MiniMax-->MAX: Visited Node :: F
+MiniMax-->MIN: Visited Node :: I
+MiniMax-->MAX: Visited Node :: K
+MiniMax-->MAX: Visited Node :: L
+MiniMax-->MIN: Visited Node :: J
+MiniMax-->MAX: Visited Node :: G
+MiniMax-->MIN: Visited Node :: M
+MiniMax-->MIN: Visited Node :: N
+MiniMax-->MAX: Visited Node :: H
+MiniMax:  Utility Value of Root Node: = 4
+
+
+----- ALPHA BETA PRUNING ------
+AlphaBeta-->MIN: Visited Node :: B
+AlphaBeta-->MAX: Visited Node :: D
+AlphaBeta-->MAX: Visited Node :: E
+AlphaBeta-->MIN: Visited Node :: C
+AlphaBeta-->MAX: Visited Node :: F
+AlphaBeta-->MIN: Visited Node :: I
+AlphaBeta-->MAX: Visited Node :: K
+AlphaBeta-->MIN: Visited Node :: J
+AlphaBeta-->MAX: Visited Node :: G
+AlphaBeta-->MIN: Visited Node :: M
+AlphaBeta-->MAX: Visited Node :: H
+AlphaBeta:  Utility Value of Root Node: = 4
+AlphaBeta:  Best State is: C

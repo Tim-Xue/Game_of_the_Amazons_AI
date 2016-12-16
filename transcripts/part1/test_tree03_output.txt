@@ -1,0 +1,62 @@
+------- CS1571 - ASSIGNMENT #02 -----------
+@author - Anthony (Tony) Poerio
+@email adp59@pitt.edu
+  ##############################
+  ########## PART I ############
+  ##############################
+
+FILENAME: test_tree3
+['A', ['B', ['E', ('L', 2), ('M', 3)], ['F', ('N', 8), ('O', 5)], ['G', ('P', 7), ('Q', 6)]], ['C', ['H', ('R', 0), ('S', 1)], ['I', ('T', 5),('U', 2)]], ['D', ['J', ('V', 8), ('W', 4)], ['K', ('X', 10), ('Y', 2)]]]
+
+
+
+----- MINIMAX SEARCH ------
+MiniMax-->MAX: Visited Node :: A
+MiniMax-->MIN: Visited Node :: B
+MiniMax-->MAX: Visited Node :: E
+MiniMax-->MIN: Visited Node :: L
+MiniMax-->MIN: Visited Node :: M
+MiniMax-->MAX: Visited Node :: F
+MiniMax-->MIN: Visited Node :: N
+MiniMax-->MIN: Visited Node :: O
+MiniMax-->MAX: Visited Node :: G
+MiniMax-->MIN: Visited Node :: P
+MiniMax-->MIN: Visited Node :: Q
+MiniMax-->MIN: Visited Node :: C
+MiniMax-->MAX: Visited Node :: H
+MiniMax-->MIN: Visited Node :: R
+MiniMax-->MIN: Visited Node :: S
+MiniMax-->MAX: Visited Node :: I
+MiniMax-->MIN: Visited Node :: T
+MiniMax-->MIN: Visited Node :: U
+MiniMax-->MIN: Visited Node :: D
+MiniMax-->MAX: Visited Node :: J
+MiniMax-->MIN: Visited Node :: V
+MiniMax-->MIN: Visited Node :: W
+MiniMax-->MAX: Visited Node :: K
+MiniMax-->MIN: Visited Node :: X
+MiniMax-->MIN: Visited Node :: Y
+MiniMax:  Utility Value of Root Node: = 8
+
+
+----- ALPHA BETA PRUNING ------
+AlphaBeta-->MIN: Visited Node :: B
+AlphaBeta-->MAX: Visited Node :: E
+AlphaBeta-->MIN: Visited Node :: L
+AlphaBeta-->MIN: Visited Node :: M
+AlphaBeta-->MAX: Visited Node :: F
+AlphaBeta-->MIN: Visited Node :: N
+AlphaBeta-->MAX: Visited Node :: G
+AlphaBeta-->MIN: Visited Node :: P
+AlphaBeta-->MIN: Visited Node :: C
+AlphaBeta-->MAX: Visited Node :: H
+AlphaBeta-->MIN: Visited Node :: R
+AlphaBeta-->MIN: Visited Node :: S
+AlphaBeta-->MIN: Visited Node :: D
+AlphaBeta-->MAX: Visited Node :: J
+AlphaBeta-->MIN: Visited Node :: V
+AlphaBeta-->MIN: Visited Node :: W
+AlphaBeta-->MAX: Visited Node :: K
+AlphaBeta-->MIN: Visited Node :: X
+AlphaBeta:  Utility Value of Root Node: = 8
+AlphaBeta:  Best State is: D

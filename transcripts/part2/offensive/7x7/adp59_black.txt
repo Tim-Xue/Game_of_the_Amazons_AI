@@ -1,0 +1,401 @@
+setup file name?testBlack7x7.config
+     Black
+  a b c d e f g
+6 . . . Q . . . 6
+5 . . . . . . . 5
+4 Q . . . . . Q 4
+3 . . . . . . . 3
+2 q . . . . . q 2
+1 . . . . . . . 1
+0 . . . q . . . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: g4-d1
+     Black
+  a b c d e f g
+6 . . . Q . . . 6
+5 . . . . . . . 5
+4 Q . . . . . . 4
+3 . . . . . . . 3
+2 q . . . . . q 2
+1 . . . Q . . . 1
+0 . . . q . . . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: b3
+human : move: ['g4', 'd1', 'b3'] time: 0.001167 seconds
+     Black
+  a b c d e f g
+6 . . . Q . . . 6
+5 . . . . . . . 5
+4 Q . . . . . . 4
+3 . x . . . . . 3
+2 q . . . . . q 2
+1 . . . Q . . . 1
+0 . . . q . . . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: d0-e1-f2
+adp59 : move: ['d0', 'e1', 'f2'] time: 77.077064 seconds
+     Black
+  a b c d e f g
+6 . . . Q . . . 6
+5 . . . . . . . 5
+4 Q . . . . . . 4
+3 . x . . . . . 3
+2 q . . . . x q 2
+1 . . . Q q . . 1
+0 . . . . . . . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: d6-g3
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 Q . . . . . . 4
+3 . x . . . . Q 3
+2 q . . . . x q 2
+1 . . . Q q . . 1
+0 . . . . . . . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: f3
+human : move: ['d6', 'g3', 'f3'] time: 0.000523999999999 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 Q . . . . . . 4
+3 . x . . . x Q 3
+2 q . . . . x q 2
+1 . . . Q q . . 1
+0 . . . . . . . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: e1-f0-f1
+adp59 : move: ['e1', 'f0', 'f1'] time: 32.764538 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 Q . . . . . . 4
+3 . x . . . x Q 3
+2 q . . . . x q 2
+1 . . . Q . x . 1
+0 . . . . . q . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: a4-a3
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . . x Q 3
+2 q . . . . x q 2
+1 . . . Q . x . 1
+0 . . . . . q . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: b2
+human : move: ['a4', 'a3', 'b2'] time: 0.000435999999993 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . . x Q 3
+2 q x . . . x q 2
+1 . . . Q . x . 1
+0 . . . . . q . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: f0-e1-e0
+adp59 : move: ['f0', 'e1', 'e0'] time: 12.711197 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . . x Q 3
+2 q x . . . x q 2
+1 . . . Q q x . 1
+0 . . . . x . . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: d3-e2
+invalid move: cannot find queen at src: d3
+Input please: d1-e2
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . . x Q 3
+2 q x . . Q x q 2
+1 . . . . q x . 1
+0 . . . . x . . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: d2
+human : move: ['d1', 'e2', 'd2'] time: 0.000652000000002 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . . x Q 3
+2 q x . x Q x q 2
+1 . . . . q x . 1
+0 . . . . x . . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: a2-b1-a0
+adp59 : move: ['a2', 'b1', 'a0'] time: 5.755565 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . . x Q 3
+2 . x . x Q x q 2
+1 . q . . q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: e2-e3
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x . . Q x Q 3
+2 . x . x . x q 2
+1 . q . . q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: c3
+human : move: ['e2', 'e3', 'c3'] time: 0.000421999999986 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x x . Q x Q 3
+2 . x . x . x q 2
+1 . q . . q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: b1-c2-d3
+adp59 : move: ['b1', 'c2', 'd3'] time: 6.436305 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 Q x x x Q x Q 3
+2 . x q x . x q 2
+1 . . . . q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: a3-a1
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 . x x x Q x Q 3
+2 . x q x . x q 2
+1 Q . . . q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: b1
+human : move: ['a3', 'a1', 'b1'] time: 0.000402000000008 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 . x x x Q x Q 3
+2 . x q x . x q 2
+1 Q x . . q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: c2-d1-c1
+adp59 : move: ['c2', 'd1', 'c1'] time: 1.866619 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 . x x x Q x Q 3
+2 . x . x . x q 2
+1 Q x x q q x . 1
+0 x . . . x . . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: a1
+['a1'] is not a valid input format
+Input please: a1-b0
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 . x x x Q x Q 3
+2 . x . x . x q 2
+1 . x x q q x . 1
+0 x Q . . x . . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: c0
+human : move: ['a1', 'b0', 'c0'] time: 0.000533999999988 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 . x x x Q x Q 3
+2 . x . x . x q 2
+1 . x x q q x . 1
+0 x Q x . x . . 0
+  a b c d e f g
+     White
+
+AlphaBeta:  Best State is: g2-g1-f0
+adp59 : move: ['g2', 'g1', 'f0'] time: 0.287503 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . . . . 4
+3 . x x x Q x Q 3
+2 . x . x . x . 2
+1 . x x q q x q 1
+0 x Q x . x x . 0
+  a b c d e f g
+     White
+
+You're playing White (Q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: e3-e4
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . Q . . 4
+3 . x x x . x Q 3
+2 . x . x . x . 2
+1 . x x q q x q 1
+0 x Q x . x x . 0
+  a b c d e f g
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: e2
+human : move: ['e3', 'e4', 'e2'] time: 0.000417000000027 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . Q . . 4
+3 . x x x . x Q 3
+2 . x . x x x . 2
+1 . x x q q x q 1
+0 x Q x . x x . 0
+  a b c d e f g
+     White
+
+adp59 time: 0.000467999999984 seconds
+     Black
+  a b c d e f g
+6 . . . . . . . 6
+5 . . . . . . . 5
+4 . . . . Q . . 4
+3 . x x x . x Q 3
+2 . x . x x x . 2
+1 . x x q q x q 1
+0 x Q x . x x . 0
+  a b c d e f g
+     White
+
+adp59 (black) resigned. human (white) wins
