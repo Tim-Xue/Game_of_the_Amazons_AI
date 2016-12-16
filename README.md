@@ -1,10 +1,6 @@
 # Game of the Amazons Autoplayer AI - (GA-AI)
 * @author Anthony (Tony) Poerio
-* University of Pittsburgh
-* CS1571 - Artificial Intelligence
-* Prof. Rebecca Hwa
-* Fall 2016
-* Homework #02
+* @email tony@tonypoer.io
 
 ## Overview
 **GA-AI** is an Artificial Intelligence project whose purpose to competitively play the board game called "Game of The Amazons" automatically, via an Artificially Intelligent Agent.
@@ -150,6 +146,3 @@ You must also have the config files you intend to read from in the same director
 * Python v. 2.7.8
 * PyCharm
 
-## Acknowledgments
-* Project done for Rebecca Hwa's Artificial Intelligence class at the University of Pittsburgh
-* Minimax and Alpha-Beta algorithms adapted into working Python from pseudocode distributed Dr. Hwa, and from discussions in the text of "Artificial Intelligence: A Modern Approach", Russell & Norvig.
